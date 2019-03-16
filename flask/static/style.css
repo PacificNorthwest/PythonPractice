@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+    text-align: center
+}
+
+.wrapper-table {
+    height: 90%;
+    width: 100%;
+    display:table;
+}
+
+.wrapper-cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.main-container {
+    margin: auto;
+    max-width: fit-content;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px
+}
+
+.main-container ul {
+    margin-top: 40px
+}

@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="wrapper-table">
+    <div class="wrapper-cell">
+        <div class="main-container">
+            <h1>Hello world</h1>
+            <ul>
+                {% for record in records %}
+                <li>{{ record }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+    
+{% endblock %}
